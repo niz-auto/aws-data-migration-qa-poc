@@ -1,5 +1,5 @@
-**Data Migration Test Strategy
-**
+Data Migration Test Strategy
+
 Overview
 
 This document describes the Quality Assurance strategy for validating migration of member and dues data from legacy systems into AWS cloud infrastructure.
