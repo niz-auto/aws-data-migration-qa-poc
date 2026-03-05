@@ -1,3 +1,4 @@
+![CI](https://github.com/YOUR_USERNAME/aws-data-migration-qa-poc/actions/workflows/tests.yml/badge.svg)
 # AWS Data Migration QA Automation POC
 
 This repository demonstrates a **QA automation framework for validating On-Prem → AWS data migration pipelines**.
