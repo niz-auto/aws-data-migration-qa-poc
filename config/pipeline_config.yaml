@@ -1,0 +1,11 @@
+source_csv: sample_data/members_sample.csv
+
+rds_table: members
+
+api_endpoint: https://api.publicapis.org/entries
+
+validation_rules:
+  - row_count
+  - null_check
+  - duplicate_check
+  - schema_validation

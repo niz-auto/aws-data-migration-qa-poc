@@ -1,0 +1,124 @@
+<html>
+<head>
+<title>AWS Data Migration QA Automation Report</title>
+<style>
+body {font-family: Arial;}
+table {border-collapse: collapse;width: 100%;}
+th,td {border:1px solid #ccc;padding:8px;text-align:left;}
+th {background:#f2f2f2;}
+.pass {color:green;}
+.fail {color:red;}
+</style>
+</head>
+
+<body>
+
+<h1>AWS Data Migration QA Dashboard</h1>
+
+<h2>Execution Summary</h2>
+
+<table>
+<tr>
+<th>Total Tests</th>
+<th>Passed</th>
+<th>Failed</th>
+<th>Pass Rate</th>
+</tr>
+
+<tr>
+<td>28</td>
+<td class="pass">26</td>
+<td class="fail">2</td>
+<td>92.8%</td>
+</tr>
+</table>
+
+
+<h2>Migration Validation KPIs</h2>
+
+<table>
+
+<tr>
+<th>KPI</th>
+<th>Status</th>
+<th>Value</th>
+</tr>
+
+<tr>
+<td>CSV Row Count Validation</td>
+<td class="pass">PASS</td>
+<td>12000 rows matched</td>
+</tr>
+
+<tr>
+<td>RDS Reconciliation</td>
+<td class="pass">PASS</td>
+<td>100% matched</td>
+</tr>
+
+<tr>
+<td>API Payload Validation</td>
+<td class="pass">PASS</td>
+<td>Schema validated</td>
+</tr>
+
+<tr>
+<td>Duplicate Records</td>
+<td class="pass">PASS</td>
+<td>0 detected</td>
+</tr>
+
+<tr>
+<td>Null Field Validation</td>
+<td class="fail">FAIL</td>
+<td>2 records missing email</td>
+</tr>
+
+<tr>
+<td>Pipeline Runtime</td>
+<td class="pass">PASS</td>
+<td>4 minutes</td>
+</tr>
+
+<tr>
+<td>Vendor API Response Time</td>
+<td class="pass">PASS</td>
+<td>320 ms avg</td>
+</tr>
+
+</table>
+
+
+<h2>Pipeline Monitoring</h2>
+
+<table>
+
+<tr>
+<th>Pipeline Stage</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>CSV Upload → S3</td>
+<td class="pass">Success</td>
+</tr>
+
+<tr>
+<td>Glue ETL Job</td>
+<td class="pass">Success</td>
+</tr>
+
+<tr>
+<td>RDS Load</td>
+<td class="pass">Success</td>
+</tr>
+
+<tr>
+<td>Vendor API Write</td>
+<td class="pass">Success</td>
+</tr>
+
+</table>
+
+</body>
+</html>

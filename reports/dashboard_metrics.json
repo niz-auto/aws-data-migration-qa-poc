@@ -1,0 +1,7 @@
+{
+  "tables_processed": 2,
+  "records_validated": 12000,
+  "validation_success_rate": 99.5,
+  "pipeline_runs_today": 4,
+  "failed_validations": 1
+}

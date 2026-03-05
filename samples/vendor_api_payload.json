@@ -1,0 +1,33 @@
+{
+  "pipeline_metadata": {
+    "pipeline_id": "members_dues_pipeline",
+    "execution_id": "run_2026_03_05_001",
+    "source_system": "legacy_membership_db",
+    "etl_tool": "aws_glue_job",
+    "execution_timestamp": "2026-03-05T14:20:11Z"
+  },
+  "records": [
+    {
+      "member_id": "M1001",
+      "first_name": "John",
+      "last_name": "Doe",
+      "membership_status": "ACTIVE",
+      "dues_amount": 120.00,
+      "dues_currency": "CAD",
+      "last_payment_date": "2025-12-15",
+      "source_file": "members_20260305.csv"
+    },
+    {
+      "member_id": "M1002",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "membership_status": "ACTIVE",
+      "dues_amount": 150.00,
+      "dues_currency": "CAD",
+      "last_payment_date": "2025-11-02",
+      "source_file": "members_20260305.csv"
+    }
+  ],
+  "record_count": 2,
+  "checksum": "b1946ac92492d2347c6235b4d2611184"
+}

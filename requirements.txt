@@ -1,0 +1,6 @@
+pandas
+pytest
+playwright
+requests
+psycopg2-binary
+pyyaml
