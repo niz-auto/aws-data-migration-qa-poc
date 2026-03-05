@@ -1,4 +1,5 @@
-Data Migration Test Strategy
+**Data Migration Test Strategy
+**
 Overview
 
 This document describes the Quality Assurance strategy for validating migration of member and dues data from legacy systems into AWS cloud infrastructure.
@@ -143,31 +144,3 @@ validation results
 defect trends
 
 pipeline reliability
-
-Why This Document Helps
-
-This makes you look like someone who:
-
-✔ designs QA strategy
-✔ understands migration risk
-✔ works at architecture level
-
-Many candidates do not include this.
-
-What Your Final Repo Will Show
-
-Your GitHub repo will demonstrate:
-
-AWS migration validation
-
-Python automation
-
-Playwright automation
-
-pipeline monitoring
-
-QA dashboards
-
-test strategy
-
-That combination is very strong for this role.
